@@ -1,0 +1,135 @@
+
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+body{
+  background-color:rgb(252, 246, 246);
+}
+li{
+    display: inline;
+}
+.logo{
+  max-width: 80px;
+  
+}
+.bar{
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    padding: 10px;
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    margin-bottom: 0%;
+
+}
+nav{
+  text-align: right;
+  display: inline;
+  
+}
+.banner{
+  margin-left: calc(50% - 50vw);
+	width: 100vw; height: 62.5vmin;
+	min-height: 15em;
+	background: linear-gradient(#0000005e, transparent, #0000005e), 
+		var(--img) 50%/ cover;
+	background-attachment: fixed;
+	background-blend-mode: multiply;
+		--img: url(https://images.pexels.com/photos/17823866/pexels-photo-17823866/free-photo-of-woman-at-her-birthday-party.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.text{
+  padding: 5%;
+  margin: 5%;
+  background-color: rgb(255, 254, 254);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  position:relative;
+
+
+}
+h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align:center;
+  margin-top: 10%;
+}
+h4{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align:center;
+  margin-bottom: 5%;
+}
+p{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  line-height: 2;
+}
+.overlay{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  padding: 20px;
+  border-radius:5px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 5px;
+}
+a:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+/*menu bars*/
+
+.menu {
+    display: inline-block;
+    cursor: pointer;
+    margin-left:10px;
+    align-items: right;
+    position: absolute;
+    top:30px;
+    right: 30px;
+    
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  /* Rotate first bar */
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  
+  /* Fade out the second bar */
+  .change .bar2 {
+    opacity: 0;
+  }
+  
+  /* Rotate last bar */
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+
+  /*Ballon hulk img*/
+.hero{
+  max-width:60%;
+  max-width: 500px;
+  margin:10% auto;
+  border-radius: 40px;
+}
+.slides{
+  margin:10% auto;
+  max-width:60%;
+  border-radius: 40px;
+}
+.animals{
+  margin-top:10%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
