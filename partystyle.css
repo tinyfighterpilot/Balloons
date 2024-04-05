@@ -133,9 +133,7 @@ a:hover{
   border-radius: 40px;
   display:block;
 }
-.logo{
-  
-}
+
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
 input::webkit-input-placeholder, textarea::-webkit-input-placeholder {
   color: #aca49c;
