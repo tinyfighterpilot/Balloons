@@ -1,0 +1,275 @@
+
+.logo{
+    max-width: 80px;
+    float: left;
+}
+.bar{
+  background: radial-gradient(circle, rgb(109, 11, 238) 0%, rgb(250, 114, 23) 100%);
+  padding: 1%;
+  position: flex;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  max-height:60px;
+}
+ul{
+  display: flex;
+  flex-wrap:nowrap;
+}
+li{
+  margin-bottom: 2%;
+  list-style-type: none;
+}
+.navbutton{
+    color: white;
+    text-decoration:none;
+    border-radius: 10px;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+}
+/* @media max-width is the most that the rule will apply to, min-width applies to everything above set value*/
+@media screen and (min-width: 1500px){
+  .navbutton{
+    font-size: larger;
+  }
+}
+@media screen and (max-width: 1000px){
+ #op2{
+  display: none;
+ }
+}
+@media screen and (max-width: 800px){
+  #op1{
+    display:none;
+  }
+}
+@media screen and (max-width: 600px){
+  #op{
+    display:none;
+  }
+}
+
+.navbutton:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(5px);
+}
+.container{
+  height: 50%;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  margin: 7%;
+  border-radius: 10px;
+  padding: 5%;
+}
+
+  @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+  input::webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #000000;
+    font-size: 0.875em;
+  }
+  
+  input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
+    color: #000000;
+  }
+  
+  input::-moz-placeholder, textarea::-moz-placeholder {
+    color: #000000;
+    font-size: 0.875em;
+  }
+  
+  input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
+    color: #000000;
+  }
+  
+  input::placeholder, textarea::placeholder {
+    color: #000000;
+    font-size: 0.875em;
+  }
+  
+  input:focus::placeholder, textarea::focus:placeholder {
+    color: #000000;
+  }
+  
+  input::-ms-placeholder, textarea::-ms-placeholder {
+    color: #000000;
+    font-size: 0.875em;
+  }
+  
+  input:focus::-ms-placeholder, textarea:focus::-ms-placeholder {
+    color: #000000;
+  }
+  
+  /* on hover placeholder */
+  
+  input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+    color: #000000;
+    font-size: 0.875em;
+  }
+  
+  input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+    color: #000000;
+  }
+  
+  input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+    color: #000000;
+    font-size: 0.875em;
+  }
+  
+  input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+    color: #000000;
+  }
+  
+  input:hover::placeholder, textarea:hover::placeholder {
+    color: #000000;
+    font-size: 0.875em;
+  }
+  
+  input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+    color: #000000;
+  }
+  
+  input:hover::placeholder, textarea:hover::placeholder {
+    color: #080808;
+    font-size: 0.875em;
+  }
+  
+  input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
+    color: #0c0c0c;
+  }
+  .contacts{
+    background-color: rgba(167, 121, 62, 0);
+    margin: 10%;
+    padding: 5%;
+  }
+  .contact-sheet {
+    position: relative;
+    margin: 100px 0 25px 0;
+    font-size: 2.3em;
+    text-align: center;
+    letter-spacing: 7px;
+    font-family: 'Lato', sans-serif;
+    color: #3f3e3e;
+    cursor: default;
+    
+  }
+  
+  #form {
+    position: relative;
+    width: 500px;
+    margin: 50px auto 100px auto;
+  }
+  .name:hover{
+    background-color: #edf1ef00;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  input {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    width: 470px;
+    height: 50px;
+    padding: 0px 15px 0px 15px;
+    
+    background: transparent;
+    outline: none;
+    color: #000000;
+    
+    border: solid 1px #6d6b6a;
+    border-bottom: none;
+    
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+  }
+  
+  input:hover {
+    background: #edf1ef00;
+    color: #000000;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  textarea {
+    width: 470px;
+    max-width: 470px;
+    height: 110px;
+    max-height: 110px;
+    padding: 15px;
+    
+    background: transparent;
+    outline: none;
+    
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    
+    border: solid 1px #6d6b6a;
+    
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+  }
+  
+  textarea:hover {
+    background: #edf1ef00;
+    color: #000000;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  #submit {
+    width: 502px;
+    
+    padding: 0;
+    margin: -5px 0px 0px 0px;
+    
+    font-family: 'Lato', sans-serif;
+    font-size: 0.875em;
+    color: #000000;
+    
+    outline:none;
+    cursor: pointer;
+    
+    border: solid 1px #6d6b6a;
+    border-top: none;
+  }
+  
+  #submit:hover {
+    color: #ffffff;
+    background-color:#11c420;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    border-radius: 25px;
+    margin-right: 5px;
+  }
+  .fa-facebook:hover{
+    background-color: #3508fc;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  .fa-instagram {
+    background: #b90b0b;
+    color: white;
+    border-radius: 25px; 
+    margin-right: 5px;
+  }
+  .fa-instagram:hover{
+    background-color: #d80000;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  .fa-paypal {
+    background-color:blue;
+    border-radius: 25px;
+  }
+  .fa-paypal:hover{
+    background-color: #4707f7;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  }
+  .socials {
+    display: flex;
+    justify-content: center;
+  }  

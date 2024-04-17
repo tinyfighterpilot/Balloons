@@ -7,19 +7,23 @@
         <title>Party Player</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="partystyle.css">
+        <link rel="stylesheet" type="text/css" href="navStyle.css">
 
     </head>
     <body>
         <div class="fixed">
             <header>
                 <nav>
-                    <img class="logo" src="assets/logo2.png" alt="Balloon Benders RVA logo">
                     <div class="bar">
+                    <img class="logo" src="assets/logo2.png" alt="Balloon Benders RVA logo">
+                    
                         <ul>
-                            <li><a href="https://tinyfighterpilot.github.io/Balloons/">Home</a></li>
-                            <li><a href="BallonBendersRVA.com/events">Offerings</a></li>
-                            <li><a href="BallonBendersRVA.com/about">About us</a></li>
-                            <li><a href="BallonBendersRVA.com/schedule">Schedule</a></li>
+                            <li><a class="navbutton" href="https://tinyfighterpilot.github.io/Balloons/">Home</a></li>
+                            <li><a class="navbutton" href="https://tinyfighterpilot.github.io/Balloons/">Decor</a></li>
+                            <li><a class="navbutton" href="https://tinyfighterpilot.github.io/Balloons/">Party Favors</a></li>
+                            <li><a class="navbutton" id="op" href="https://tinyfighterpilot.github.io/Balloons/">About us</a></li>
+                            <li><a class="navbutton" id="op1" href="https://tinyfighterpilot.github.io/Balloons/">Schedule</a></li>
+                            <li><a class="navbutton" id="op2" href="https://tinyfighterpilot.github.io/Balloons/">Contact Us</a></li>
                         </ul>
                         <div class="menu" onclick="toggleMenu(this)">
                             <div class="bar1"></div>
@@ -27,18 +31,17 @@
                             <div class="bar3"></div>
                           </div>
                     </div>
-                
-                    
                 </nav>
                 <div class="banner"></div>
                 <div class="overlay">
-                    <h2>Time to party!</h2>
-                    <p>Book with us and relax while we bring the party!</p>
+                    <h1>Ballon Benders RVA</h1>
                 </div>
             </header>
             
         </div>
+        
         <div class="text">
+            <img class="hero" src="assets/heros.jpg" alt="Balloon costumes">
             <h1>Ready to make the Party POP?</h1>
             <h4>Blow your guests away with our Balloon Party Packages</h4>
             <p>🎈🎉 Introducing Balloon Bunch Creations! 🎉🎈<br>Are you ready to take your party to the next level? Say goodbye to boring gatherings and hello to a burst of excitement with Balloon Bunch Creations! We're not just about balloons; we're about transforming ordinary moments into extraordinary memories.🎈 Unleash Your Imagination: From adorable puppies to majestic unicorns, our talented balloon artists can twist, twirl, and shape balloons into any creation you can dream of! Whether it's a birthday bash, corporate event, or community celebration, we bring joy to every occasion.
@@ -48,7 +51,7 @@
                 🌟 Quality and Creativity: At Balloon Bunch Creations, we're passionate about craftsmanship. We use high-quality balloons in a rainbow of colors, ensuring every creation is vibrant, durable, and ready to impress. Plus, our artists are masters of their craft, guaranteeing unique designs that will leave your guests in awe.
                </p>
         </div>
-        <img class="hero" src="assets/heros.jpg" alt="Balloon costumes">
+        <img class="banner2">
         <div class="text">
             <h1>Party Baskets!</h1>
             <p>Birthday Bash Basket:        A medley of colorful balloons, confetti poppers, and a mini cake topper. Perfect for celebrating another trip around the sun!
@@ -70,15 +73,16 @@
                 <br>- Custom Delights: Dreaming of a giant giraffe or a fluttering butterfly? We’ll twist and shape balloons into your wildest fantasies.
                 <br>- Memorable Moments: Imagine the delight on your guests’ faces as they receive their own balloon masterpiece. It’s a memory they’ll cherish forever.</p>
         </div>
-        <div class="animals">
-            <img src="assets/collage.JPG" alt="balloon animals">
-        </div>
+        
+        <img class="animals" src="assets/collage.JPG" alt="balloon animals">
+      
         <img class="logo" src="assets/logo2.png" alt="Balloon Benders RVA logo">
         <div class="contacts">
         <header class="contact-sheet">Contact us</header>
-            <form id="form" class="topBefore">
-                <input id="name" type="text" placeholder="NAME">
-                <input id="email" type="text" placeholder="E-MAIL">
+            <form id="form" class="topBefore" action="/action_page.php">
+                <input id="name" class="name" type="text" placeholder="NAME">
+                <input id="email" type="email" placeholder="E-MAIL">
+                <input id="phone" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="PHONE: (804)222-4444" required>
                 <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
                 <input id="submit" type="submit" value="SEND">
             </form>
@@ -86,12 +90,8 @@
         <div class="socials">
             <a href="#" class="fa fa-instagram"></a>
             <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-venmo"></a>
-            <a href="#" class="fa fa-cashapp"></a>
-            <a href="#" class="fa fa-paypal></a>
-            
+            <a href="#" class="fa fa-paypal"></a>
         </div>
-        
         <script src="func.js"></script>
     </body>
 </html>

@@ -1,11 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <title>Deals</title>
     <meta charset="utf-8">
+    <meta name="description" content="See our new Party deals!">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="dealstyle.css">
+    <link rel="stylesheet" type="text/css" href="navStyle.css">
 </head>
 <body>
-    <h1>hello</h1>
+  <div class="bar">
+    <img class="logo" src="assets/logo2.png" alt="Balloon Benders RVA logo">
+    <ul>
+      <li><a class="navbutton" href="https://tinyfighterpilot.github.io/Balloons/">Home</a></li>
+      <li><a class="navbutton" href="https://tinyfighterpilot.github.io/Balloons/">Decor</a></li>
+      <li><a class="navbutton" href="https://tinyfighterpilot.github.io/Balloons/">Party Favors</a></li>
+      <li><a class="navbutton" id="op" href="https://tinyfighterpilot.github.io/Balloons/">About us</a></li>
+      <li><a class="navbutton" id="op1" href="https://tinyfighterpilot.github.io/Balloons/">Schedule</a></li>
+      <li><a class="navbutton" id="op2" href="https://tinyfighterpilot.github.io/Balloons/">Contact Us</a></li>
+    </ul>
+    <div class="menu" onclick="toggleMenu(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+</div>
+  <div class="banner"></div>
+    <div class="overlay">
+      <h2>Deals Deals Deals</h2>
+      <p>Save big on our gift baskets, personalized parties and more</p>
+  </div>
+    <div class="container">
+        <h1>Our selection:</h1>
+        <div class="row">
+            <div class="column">
+              <img src="assets/collage.JPG" alt="Ice Cream Dream" style="width: 100%;" onclick="myFunction(this);">
+              
+            </div>
+            <div class="column">
+              <img src="assets/paw_patrol.JPEG" alt="Puppy Party" style="width:100%" onclick="myFunction(this);">
+              
+            </div>
+            <div class="column">
+              <img src="assets/green.JPEG" alt="After Party" style="width:100%" onclick="myFunction(this);">
+              
+            </div>
+            <div class="column">
+              <img src="assets/purple.JPEG" alt="Pre-Game"  style="width:100%" onclick="myFunction(this);">
+              
+            </div>
+          </div>
+        <div class="expanded">
+            <img id="expandedImg" alt="" style="width: 100%">
+            <div id="imgtext"></div>
+            
+        </div>
+        
+        <div class="container">
+        <h1>Deals and More!</h1>
+        <h3>At Balloon Critters, we specialize in creating whimsical and delightful balloon animals that bring joy to both young and young-at-heart. Our talented team of balloon artists meticulously crafts each critter, infusing them with a dash of magic and a whole lot of fun.</h3>
+        <p>🎈 Balloon Dogs: Our classic balloon dogs come in a rainbow of colors. From dachshunds to Great Danes, these bouncy companions are perfect for birthday parties, picnics, and any celebration that needs a touch of playfulness.</p>
+        <p>🦁 Safari Safari: Embark on a wild adventure with our safari-themed balloon animals. From majestic lions to cheeky monkeys, our menagerie of creatures will transport you to the heart of the jungle.</p>
+        <p>🐘 Jumbo Creations: Need something larger than life? Our jumbo balloon animals, like the towering giraffe or the colossal elephant, make a statement at grand openings and festivals.</p>
+        <p>🐰 Hoppy Bunnies: Easter or not, our floppy-eared bunnies are always in season. These adorable hoppers make fantastic party favors and are guaranteed to elicit smiles.</p>
+        <p>🌟 Custom Requests: Can’t find your favorite critter on our menu? Fear not! We love custom requests. Whether it’s a one-of-a-kind alien or a balloon likeness of your pet, we’ll bring your imagination to life.</p>
+        <h3>Remember, at Balloon Critters, we don’t just twist balloons; we weave dreams. So come on over, pick your favorite critter, and let the magic unfold! 🎉🎈</h3>
+      </div>
+    </div>
+      <img class="logo" src="assets/logo2.png" alt="Balloon Benders RVA logo">
+      <div class="contacts">
+      <header class="contact-sheet">Contact us</header>
+          <form id="form" class="topBefore" action="/action_page.php">
+              <input id="name" class="name" type="text" placeholder="NAME">
+              <input id="email" type="text" placeholder="E-MAIL" required>
+              <input id="phone" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="PHONE: (804)222-4444" required>
+              <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+              <input id="submit" type="submit" value="SEND">
+          </form>
+        </div>
+    <div class="socials">
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-paypal"></a>
+  </div>
+    <script src="Dfunc.js"></script>
 </body>
 </html>
