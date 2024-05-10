@@ -280,35 +280,40 @@ li{
     color: rgb(255, 255, 255);
     border-radius: 25px;
     margin-right: 5px;
-    padding: 25px;
+    text-decoration: none;
   }
   .fa-facebook:hover{
     background-color: #3508fc;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
   }
   .fa-instagram {
     background: #b90b0b;
     color: white;
-    border-radius: 25px; 
+    
     margin-right: 5px;
-    padding: 25px;
+    text-decoration: none;
   }
   .fa-instagram:hover{
     background-color: #d80000;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
   }
   .fa-paypal {
-    background-color:blue;
-    border-radius: 25px;
-    padding: 25px;
+    background-color:rgb(178, 178, 240);
+    border-radius: 10px;
+    text-decoration: none;
   }
   .fa-paypal:hover{
-    background-color: #4707f7;
+    background-color: #e0dde9;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     
   }
   .socials {
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 10px;
+    margin-bottom: 40px;
+    font-size:36px;
+    border-radius
   }  
