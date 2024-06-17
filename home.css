@@ -1,39 +1,77 @@
-
-.banner{
+body{
+  margin-inline: 0;
+}
+@media screen and (min-width: 1500px){
+  .text{
+    margin-inline: 10%;
+  }
+}
   
-	width: 100%; height: 80vmin;
-	min-height: 15em;
-	background: linear-gradient(#00000093, transparent, #000000b0), var(--img) 50%/ cover;
-	background-attachment:fixed;
-	background-blend-mode: multiply;
-	--img: url(https://images.pexels.com/photos/17823866/pexels-photo-17823866/free-photo-of-woman-at-her-birthday-party.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+.banner {
+  display: flex;
+  margin-top: 90px;
+  width: 100vw; 
+  height: 57vh;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#0000003f, transparent, #000000e3), 
+              url(assets/wallpaper.png) center/ cover;
+  background-attachment: fixed;
+  background-position: center 90px; /* Moves background image down by 90px */
+}
+@media screen and (min-width: 1000px){
+  .banner{
+    background: linear-gradient(#0000003f, transparent, #0000003d), 
+    url(assets/header3.png) center/ cover;
+    background-attachment: fixed;
+    height: 80vh;
+    background-position: center -200px;
+    background-size: 200vh;
+  }
+  .overlay{
+    font-size: xx-large;
+  }
+}
+@media screen and (max-width: 1000px){
+  .banner{
+    background-size: 100vh;
+  }
+
 }
 .banner2{
 	width: 100%; height: 80vmin;
 	min-height: 15em;
-	background: linear-gradient(#00000093, transparent, #000000b0), var(--img) 50%/ cover;
+	background: linear-gradient(#00000017, transparent, #00000015), url(assets/couple.JPEG) 50% 20%/cover;
 	background-attachment:fixed;
-	background-blend-mode: multiply;
-	--img: url(https://th.bing.com/th/id/R.c9de1452b56b9f69e79f4bf21475f799?rik=j1NGFx0Trq6FUA&pid=ImgRaw&r=0);
+}
+@media screen and (min-width: 1200px){
+  .grid {
+    display: grid;
+    max-width:1500px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, .4fr);
+    height: auto;
+  }
+  .gridItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .text{
-  padding: 5%;
-  margin: 5%;
-  background-color: rgb(255, 254, 254);
-  position:relative;
+  padding: 50px;
+  margin-block: 50px;
+  background-color: rgb(255, 255, 255);
 }
 h1{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align:center;
-  margin-top: 10%;
+  margin: 10%;
 }
-h2{
 
-}
 h4{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align:center;
-  margin-bottom: 5%;
 }
 p{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,19 +79,11 @@ p{
   line-height: 2;
 }
 .overlay{
-  position: absolute;
-  top:50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color:white;
-  padding: 20px;
-  border-radius:5px;
-  text-align: center;
-  transition: transform 0.2s ease;
-  background-color: rgba(0, 0, 0, 0.685);
+  color:rgb(255, 255, 255);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:xxx-large;
+  text-shadow: 2px 2px #000000;
 }
-
-
 
   /*Ballon hulk img*/
 .hero{
@@ -61,26 +91,15 @@ p{
   float: right;
   padding-left: 5%;
 }
-@media screen and (max-width:1500px){
-  .hero{
-    width: 50%;
-  }
-  .slides{
-    width:50%;
-  }
-  .animals{
-    width: 50%;
-  }
-}
 
 .slides{
-  margin:10% auto;
+  margin:5%;
   max-width:800px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 .animals{
   max-width: 1000px;
-  margin:5% auto;
-  border-radius: 20px;
-  display:block;
+  width: 90%;
+  margin:5%;
+  border-radius: 10px;
 }

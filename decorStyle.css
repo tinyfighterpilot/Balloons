@@ -1,78 +1,77 @@
-
-li{
-    display: inline;
+body{
+  margin-inline: 0;
+}
+.banner{
+  height: 90vmin;
+  background: linear-gradient(#0000001c, transparent, #0000001c), url(assets/header2.png) 50%/ cover;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.overlay{
+  font-size: xx-large;
+  color:white;
 }
 
-
-.banner{
-    width: 100%; height: 80vmin;
-    min-height: 15em;
-    background: linear-gradient(#0000005e, transparent, #0000005e), var(--img) 50%/ cover;
-    background-attachment: fixed;
-    background-blend-mode: multiply;
-    --img: url(https://th.bing.com/th/id/R.9aada27afb1660e847bf69736bc32655?rik=lhMF4BokQ6j9dw&pid=ImgRaw&r=0);
-  }
-  .overlay{
-  position: absolute;
-  top:50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color:white;
-  padding: 20px;
-  border-radius:5px;
-  text-align: center;
-  transition: transform 0.2s ease;
-  background-color: rgba(0, 0, 0, 0.685);
-  }
-  .column{
-    display: inline-block;
-    width: 15%;
-    margin: 15px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-    opacity: 0.8;
-    cursor: pointer;
-  }
-  .column:hover{
-    transform: translateY(-2px);
-    opacity: 1;
-  }
-  .row:after{
-    content:'';
-    display: table;
-    clear: both;
-  }
-  .expanded{
-    position: relative;
-    display: flex;
-    margin:0 auto;
-    width: 80%;
-    max-width: 700px;
-    
-  }
-  .expanded :hover{
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
-    
-  }
-  #imgtext{
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
-    color: white;
-    font-size: 20px;
-    background-color: #00000077;
-    cursor:default;
-    
-  }
-
-  p{
-    margin-top: 5%;
-    margin-left: 5%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
-  h1{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+p{
+  margin-top: 5%;
+  margin-left: 5%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h3{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@media screen and (max-width: 1000px){
+  .left{
+    width: 70%;
+    
+  }
+  
+}
+.left{
+  float: left;
+  padding-left: 5%;
+  margin-inline: 2%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  height: auto;
+  margin: 5%;
+}
+.gridItem{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Title{
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
 }
 
+@media (max-width: 1100px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .gridItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 2;
+  }
+}
+/*slide show container*/
+
+/*slide*/
+.gi{
+  display: block;
+  max-width: 120%;
+}

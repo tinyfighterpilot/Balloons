@@ -1,18 +1,37 @@
 
-function myFunction(imgs) {
-    // Get the expanded image
-    var expandImg = document.getElementById("expandedImg");
-    // Get the image text
-    var imgText = document.getElementById("imgtext");
-    // Use the same src in the expanded image as the image being clicked on from the grid
-    expandImg.src = imgs.src;
-    // Use the value of the alt attribute of the clickable image as text inside the expanded image
-    imgText.innerHTML = imgs.alt;
-    // Show the container element (hidden with CSS)
-    expandImg.parentElement.style.display = "block";
-    
+let popup = document.getElementById("pop");
+let bars = document.getElementById("menu");
+window.onclick = function(event){
+  if (event.target == popup){
+    popup.classList.toggle("show");
+    bars.classList.toggle("change");
+  }
 }
 function toggleMenu(x) {
     x.classList.toggle("change");
+    popup.classList.toggle("show");
+}
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
 }
 
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("i1");
+  var b = document.getElementsByClassName("i2");
+  var c = document.getElementsByClassName("i3");
+  //need if or condition statement to change slideIndex for slideshow
+  if (n > x.length) {
+    slideIndex = 1;
+  }
+  if (n < 1) {
+    slideIndex = x.length;
+  }
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}

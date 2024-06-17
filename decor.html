@@ -4,6 +4,7 @@
     <title>Deals</title>
     <meta charset="utf-8">
     <meta name="description" content="See our new Party deals!">
+    <meta name="keywords" content="Party planning, event management, celebration ideas,Party themes, venue selection, catering services,Entertainment options, decorations, invitations,Party supplies, budget-friendly parties, special occasions,Birthday parties, anniversary celebrations, holiday events,Corporate gatherings, team-building activities, outdoor parties,Indoor venues, DIY party tips, party games,Party favors, party rentals, photo booth rentals,Music playlists, DJ services, live entertainment,Themed decorations, costume parties, masquerade balls, balloons, party, decorations, helium, events, celebrations, birthday, anniversary, decorations, colorful, inflatable, fun, helium-filled, balloon bouquets, themed balloons, custom balloons, latex balloons, foil balloons, balloon arches, balloon animals, balloon art, balloon twisting, balloon delivery, party supplies, festive, decorations, party planning, special occasions, helium tanks, balloon accessories">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="decorStyle.css">
@@ -12,72 +13,80 @@
 <body>
   <div class="bar">
     <img class="logo" src="assets/logo2.png" alt="Balloon Benders RVA logo">
-    <ul>
-                            <li><a class="navbutton" href="https://tinyfighterpilot.github.io/Balloons/index">Home</a></li>
-                            <li><a class="navbutton" href="https://tinyfighterpilot.github.io/Balloons/decor">Decor</a></li>
-                            <li><a class="navbutton" href="https://tinyfighterpilot.github.io/Balloons/partyFavors">Party Favors</a></li>
-                            <li><a class="navbutton" id="op" href="https://tinyfighterpilot.github.io/Balloons/about">About us</a></li>
-                            <li><a class="navbutton" id="op1" href="https://tinyfighterpilot.github.io/Balloons/bookings">Schedule</a></li>
-                            <li><a class="navbutton" id="op2" href="https://tinyfighterpilot.github.io/Balloons/contact">Contact Us</a></li>
-    </ul>
     <div class="menu" onclick="toggleMenu(this)">
       <div class="bar1"></div>
       <div class="bar2"></div>
       <div class="bar3"></div>
     </div>
-</div>
-  <div class="banner"></div>
-    <div class="overlay">
-      <h2>Deals Deals Deals</h2>
-      <p>Save big on our gift baskets, personalized parties and more</p>
-  </div>
-    <div class="container">
-        <h1>Our selection:</h1>
-        <div class="row">
-            <div class="column">
-              <img src="assets/collage.JPG" alt="Ice Cream Dream" style="width: 100%;" onclick="myFunction(this);">
-              
-            </div>
-            <div class="column">
-              <img src="assets/paw_patrol.JPEG" alt="Puppy Party" style="width:100%" onclick="myFunction(this);">
-              
-            </div>
-            <div class="column">
-              <img src="assets/green.JPEG" alt="After Party" style="width:100%" onclick="myFunction(this);">
-              
-            </div>
-            <div class="column">
-              <img src="assets/purple.JPEG" alt="Pre-Game"  style="width:100%" onclick="myFunction(this);">
-              
-            </div>
-          </div>
-        <div class="expanded">
-            <img id="expandedImg" alt="" style="width: 100%">
-            <div id="imgtext"></div>
-            
-        </div>
-        
-        <div class="container">
-        <h1>Deals and More!</h1>
-        <h3>At Balloon Critters, we specialize in creating whimsical and delightful balloon animals that bring joy to both young and young-at-heart. Our talented team of balloon artists meticulously crafts each critter, infusing them with a dash of magic and a whole lot of fun.</h3>
-        <p>🎈 Balloon Dogs: Our classic balloon dogs come in a rainbow of colors. From dachshunds to Great Danes, these bouncy companions are perfect for birthday parties, picnics, and any celebration that needs a touch of playfulness.</p>
-        <p>🦁 Safari Safari: Embark on a wild adventure with our safari-themed balloon animals. From majestic lions to cheeky monkeys, our menagerie of creatures will transport you to the heart of the jungle.</p>
-        <p>🐘 Jumbo Creations: Need something larger than life? Our jumbo balloon animals, like the towering giraffe or the colossal elephant, make a statement at grand openings and festivals.</p>
-        <p>🐰 Hoppy Bunnies: Easter or not, our floppy-eared bunnies are always in season. These adorable hoppers make fantastic party favors and are guaranteed to elicit smiles.</p>
-        <p>🌟 Custom Requests: Can’t find your favorite critter on our menu? Fear not! We love custom requests. Whether it’s a one-of-a-kind alien or a balloon likeness of your pet, we’ll bring your imagination to life.</p>
-        <h3>Remember, at Balloon Critters, we don’t just twist balloons; we weave dreams. So come on over, pick your favorite critter, and let the magic unfold! 🎉🎈</h3>
+    <div class="popup" id="pop">
+      <a class="navbutton" href="https://tinyfighterpilot.github.io/Balloons/index">Home</a>
+      <a class="navbutton" href="https://tinyfighterpilot.github.io/Balloons/decor">Decor</a>
+      <a class="navbutton" href="https://tinyfighterpilot.github.io/Balloons/partyFavors">Party Favors</a>
+      <a class="navbutton" href="https://tinyfighterpilot.github.io/Balloons/bookings">Schedule</a>
+      <a class="navbutton" href="https://tinyfighterpilot.github.io/Balloons/contact">Contact Us</a>
+      <div class="socials">
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-paypal"></a>
       </div>
     </div>
+</div>
+  <div class="banner"><div class="overlay">
+    <h1>Our Decor!</h1>
+</div>
+</div>
+<div class = "Title">
+<h1>Check out our styling of your events!</h1>
+</div>
+      <div class="grid">
+        
+        <figure class="gridItem">
+          <img src="assets/rwb.jpg" class="gi i1" onclick="plusDivs(1)">
+          <img src="assets/strike.jpg" class="gi i1" onclick="plusDivs(1)">
+          <img src="assets/napa.jpg" class="gi i1" onclick="plusDivs(1)">
+          <img src="assets/rbTower.jpg" class="gi i1" onclick="plusDivs(1)">
+          
+        </figure> 
+
+        <figure class="gridItem">
+          <p>As you prepare to celebrate your love story, let Balloon Benders RVA take your wedding décor to new heights! We offer a spectacular selection of balloon products to transform your wedding venue into a whimsical and romantic paradise. From the grand entrance to the unforgettable dance floor, our balloons create a lasting impression for you and your guests. Imagine a stunning archway of cascading balloons framing your arrival, setting the stage for an evening of magic. For the dance floor, we can create a vibrant cloud of balloons overhead, adding a touch of playful flair that will keep your guests moving all night long. Let us help you craft the wedding of your dreams – contact Balloon Benders RVA today and let's get started!</p>
+        </figure>
+        <figure class="gridItem">
+          <p>No matter your wedding vision, Balloon Benders RVA has the perfect balloon arch or tower to complete your grand entrance or highlight special areas.  For a classic and elegant touch, our "Organic Arch" features balloons in various sizes and textures, artfully arranged for a natural, whimsical feel. Craving a show-stopping statement? Our "Decadent Arch" boasts a packed design with layers of colorful balloons, creating a truly luxurious and vibrant display. We also offer "Double Arch" options, perfect for framing both the entrance and exit of your venue.  And don't forget the dance floor! We have a variety of "Balloon Column" styles, from sleek and modern to playfully themed, to add a touch of festivity and encourage guests to let loose. Let us help you choose the perfect balloon structures to make your wedding unforgettable! </p>
+        </figure>
+        <figure class="gridItem">
+          <img src="assets/rbarch.jpg" alt="red and blue balloon twist arch way">
+        </figure>
+        <figure class="gridItem">
+          <img src="assets/carBubble.jpg" alt="car bubble">
+        </figure>
+        <figure class="gridItem">
+          <p>We don't just blow up the fun at birthdays! Balloon Benders RVA is your one-stop shop for balloons that add a pop of color and excitement to any celebration. From milestone moments like graduations and baby showers to grand openings and corporate events, we have the perfect balloons to create a festive atmosphere.  Looking to add a touch of magic to a kid's birthday party? We have everything from character balloons to confetti-filled options. Need to create a sophisticated ambiance for a retirement party? We offer elegant balloon arrangements in classic colors.  So whatever the occasion, let us help you celebrate in style!</p>
+        </figure>
+      </div>
+    <div class="container">
+      <img class="left" src="assets/rbarch.jpg" alt="archway">
+    <h1>Deals and More!</h1>
+    <h3>At Balloon Critters, we specialize in creating whimsical and delightful balloon animals that bring joy to both young and young-at-heart. Our talented team of balloon artists meticulously crafts each critter, infusing them with a dash of magic and a whole lot of fun.</h3>
+    <p>🎈 Balloon Dogs: Our classic balloon dogs come in a rainbow of colors. From dachshunds to Great Danes, these bouncy companions are perfect for birthday parties, picnics, and any celebration that needs a touch of playfulness.</p>
+    <p>🦁 Safari Safari: Embark on a wild adventure with our safari-themed balloon animals. From majestic lions to cheeky monkeys, our menagerie of creatures will transport you to the heart of the jungle.</p>
+    <p>🐘 Jumbo Creations: Need something larger than life? Our jumbo balloon animals, like the towering giraffe or the colossal elephant, make a statement at grand openings and festivals.</p>
+    <p>🐰 Hoppy Bunnies: Easter or not, our floppy-eared bunnies are always in season. These adorable hoppers make fantastic party favors and are guaranteed to elicit smiles.</p>
+    <p>🌟 Custom Requests: Can’t find your favorite critter on our menu? Fear not! We love custom requests. Whether it’s a one-of-a-kind alien or a balloon likeness of your pet, we’ll bring your imagination to life.</p>
+    <h3>Remember, at Balloon Critters, we don’t just twist balloons; we weave dreams. So come on over, pick your favorite critter, and let the magic unfold! 🎉🎈</h3>
+  </div>
       <img class="logo" src="assets/logo2.png" alt="Balloon Benders RVA logo">
       <div class="contacts">
       <header class="contact-sheet">Contact us</header>
-          <form id="form" class="topBefore" action="/action_page.php">
-              <input id="name" class="name" type="text" placeholder="NAME">
-              <input id="email" type="text" placeholder="E-MAIL" required>
-              <input id="phone" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="PHONE:" required>
-              <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
-              <input id="submit" type="submit" value="SEND">
-          </form>
+      <form id="form" class="topBefore" action="/action_page.php">
+        <input id="name" class="name" type="text" placeholder="NAME"></input>
+        <input id="email" type="email" placeholder="E-MAIL"></input>
+        <input id="phone" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="PHONE" required></input>
+        <input id="text" type="text" placeholder="TYPE OF EVENT" required></input>
+        <input id="address" type="text" name="street-address" autocomplete="street-address" placeholder="LOCATION" required></input>
+        <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+        <input id="submit" type="submit" value="SEND"></input>
+    </form>
         </div>
     <div class="socials">
       <a href="#" class="fa fa-instagram"></a>
