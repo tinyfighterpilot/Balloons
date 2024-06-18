@@ -120,14 +120,14 @@
 }
 @media screen and (min-width: 1000px){
   .popup{
-    margin-inline: 2%;
+    margin-inline: 0%;
     right: 5px;
-    height: 500px;
+    height: 800px;
     width: 20%;
-    padding: 5%;
+    padding: 15px;
   }
   .navbutton{
-    margin: 7%;
+    margin: 5px;
     font-size: x-large;
   }
 }
