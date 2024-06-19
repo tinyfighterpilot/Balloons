@@ -15,7 +15,7 @@ body{
   align-items: center;
   justify-content: center;
   background: linear-gradient(#0000003f, transparent, #000000e3), 
-              url(assets/wallpaper.png) center/ cover;
+              url(assets/header.png) center/ cover;
   background-attachment: fixed;
   background-position: center 90px; /* Moves background image down by 90px */
 }
@@ -64,23 +64,23 @@ body{
   background-color: rgb(255, 255, 255);
 }
 h1{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align:center;
   margin: 10%;
 }
 
 h4{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align:center;
 }
 p{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   line-height: 2;
 }
 .overlay{
-  color:rgb(255, 255, 255);
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:rgba(248, 248, 248, 0.966);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size:xxx-large;
   text-shadow: 2px 2px #000000;
 }

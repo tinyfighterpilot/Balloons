@@ -1,4 +1,3 @@
-
 let popup = document.getElementById("pop");
 let bars = document.getElementById("menu");
 window.onclick = function(event){
