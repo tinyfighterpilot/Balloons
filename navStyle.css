@@ -40,7 +40,7 @@
 }
 
 .lilpop{
-  background-color: rgba(255, 255, 255, 0.952);
+  background-color: rgba(245, 245, 245, 0.952);
   width: 300px;
   height: 500px;
   display: flex;
@@ -252,7 +252,7 @@
     background: transparent;
     outline: none;
     color: #000000;
-    
+    border-radius: 10px;
     border: solid 1px #6d6b6a;
     margin-block: 1.5%;
     transition: all 0.1s ease-in-out;
@@ -286,6 +286,7 @@
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
+    border-radius: 10px;
   }
   
   textarea:hover {
