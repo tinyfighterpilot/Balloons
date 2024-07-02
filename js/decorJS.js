@@ -9,8 +9,7 @@ function plusDivs(n) {
 function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("i1");
-  var b = document.getElementsByClassName("i2");
-  var c = document.getElementsByClassName("i3");
+
   //need if or condition statement to change slideIndex for slideshow
   if (n > x.length) {
     slideIndex = 1;
