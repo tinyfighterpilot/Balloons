@@ -2,14 +2,22 @@ body{
   margin-inline: 0;
 }
 .banner{
-  height: 90vmin;
-  background: linear-gradient(#0000001c, transparent, #0000001c), url(assets/header2.png) 50%/ cover;
+  height: 100vmin;
+  background: linear-gradient(#0000001c, transparent, #0000001c), url(assets/Day\ course\ 7_.jpg) 50%/ cover;
   background-attachment: fixed;
   background-blend-mode: multiply;
   top: 90px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media screen and (min-width: 1000px){
+  .banner{
+    background-position-y: 90px;
+  }
+  .p{
+    font-size: larger;
+  }
 }
 .overlay{
   color:rgba(248, 248, 248, 0.966);
@@ -22,7 +30,10 @@ p{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   line-height: 2;
+  font-weight: 500;
+  font-size: x-large;
 }
+
 h1{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
@@ -36,14 +47,15 @@ h3{
 @media screen and (max-width: 1000px){
   .left{
     width: 70%;
-    
   }
   
 }
 .left{
   float: left;
-  padding-left: 5%;
   margin-inline: 2%;
+  background-color: blue;
+  width: 100%;
+  margin-bottom: 0%;
 }
 .grid {
   display: grid;
@@ -73,13 +85,37 @@ h3{
     justify-content: center;
     line-height: 2;
   }
+  .one {
+    order: 1;
+  }
+
+  .two {
+    order: 2;
+  }
+
+  .three {
+    order: 4;
+  }
+
+  .four {
+    order: 3;
+  }
+
+  .five {
+    order: 5;
+  }
+
+  .six {
+    order: 6;
+  }
 }
 /*slide show container*/
 
 /*slide*/
 .gi{
   display: block;
-  max-width: 120%;
+  max-width: 80%;
+  max-height: 600px;
 }
 img{
   border-radius: 10px;

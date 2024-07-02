@@ -6,7 +6,12 @@ body{
     margin-inline: 10%;
   }
 }
-  
+.image{
+  width:100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .banner {
   display: flex;
   margin-top: 90px;
@@ -92,6 +97,11 @@ h1{
   text-align:center;
   margin: 10%;
 }
+h2{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 5%;
+}
 
 h4{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -120,11 +130,7 @@ p{
   align-items: center;
   
 }
-.slides{
-  margin:5%;
-  max-width:800px;
-  border-radius: 10px;
-}
+
 .animals{
   max-width: 1000px;
   width: 90%;

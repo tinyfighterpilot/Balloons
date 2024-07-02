@@ -16,7 +16,16 @@
         cursor: pointer;
     }
 }
-
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:center;
+    margin: 10%;
+}
+.slides{
+    margin:5%;
+    max-width:800px;
+    border-radius: 10px;
+  }
 @media screen and (min-width:1000px){
     .cart{
         width: 90%;
