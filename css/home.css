@@ -16,102 +16,89 @@ body{
   display: flex;
   margin-top: 90px;
   width: 100vw; 
-  height: 57vh;
+  height: 80vh;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(#0000003f, transparent, #000000e3), 
-              url(assets/header.png) center/ cover;
+  background: url(assets/balloonpinkbackground.png) center/ cover;
+  background-attachment: fixed;
+  background-position: 0; /* Moves background image down by 90px */
+}
+.banner2 {
+  display: flex;
+  margin-top: 90px;
+  width: 100vw; 
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#e2a4d07e, transparent, #cecece9a), 
+              url(assets/header2.png) center/ cover;
   background-attachment: fixed;
   background-position: center 90px; /* Moves background image down by 90px */
 }
-.banner2{
-	width: 100%; height: 80vmin;
-	min-height: 15em;
-	background: linear-gradient(#00000017, transparent, #00000015), url(assets/couple.JPEG) center/cover;
-	background-attachment:fixed;
-}
-
-@media screen and (min-width: 1000px){
-  .banner{
-    background: linear-gradient(#0000003f, transparent, #0000003d), 
-    url(assets/header3.png) center/ cover;
-    background-attachment: fixed;
-    height: 80vh;
-    background-position: center -200px;
-    background-size: 200vh;
-  }
-  .banner2{
-    background: linear-gradient(#00000017, transparent, #00000015), url(assets/couple+Bride.jpg) 50% 20%/cover;
-    background-attachment: fixed;
-    height: 100vh;
-    background-position: center -150px;
-    background-size: 100%;
-  }
-  @media screen and (max-height: 800px){
-    .banner{
-      background-position: center -100px;
-    }
-    
-  }
-  @media screen and (max-width: 1500px){
-    .banner2{
-      background-size: 180vh;
-    }
-  }
-  .overlay{
-    font-size: xx-large;
-  }
-}
-@media screen and (max-width: 1000px){
-  .banner{
-    background-size: 100vh;
-  }
-
-}
-
-@media screen and (min-width: 1200px){
-  .grid {
-    display: grid;
-    max-width:1500px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, .4fr);
-    height: auto;
-    width: auto;
-    margin: auto;
-  }
-}
-.gridItem{
+.gridItem {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  position: relative;
 }
 
-.text{
-  padding: 50px;
-  margin-block: 50px;
-  background-color: rgb(255, 255, 255);
-}
-h1{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-align:center;
-  margin: 10%;
-}
-h2{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-align: center;
-  margin: 5%;
+.gridItem img {
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+
 }
 
-h4{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-align:center;
+.overlay {
+  position: absolute;
+  color: white;
+  font-size: 1.5rem;
+  padding: 5px 10px; 
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-p{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-align: center;
-  line-height: 2;
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  height: auto;
+  width: 80%; /* Adjust width as needed */
+  margin: 0 auto; /* Center the grid horizontally */
 }
+
+@media (max-width: 1100px) {
+  .grid {
+      grid-template-columns: 1fr;
+  }
+}
+
+
+
+@media screen and (min-width: 800px){
+  .banner{
+  display: flex;
+  margin-top: 90px;
+  width: 100vw; 
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  background: url(assets/feastBalloon.png) center/ cover;
+  background-attachment: fixed;
+  background-position: center 0px;
+  }
+}
+  @media screen and (max-height: 800px){
+  .banner{
+    background-position: center 50px;
+  }
+  .overlay{
+   font-size: x-large;
+  }
+}
+
 .overlay{
   color:rgba(248, 248, 248, 0.966);
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -119,7 +106,6 @@ p{
   text-shadow: 2px 2px #000000;
 }
 
-  /*Ballon hulk img*/
 .hero{
   max-width: 800px;
   float: right;

@@ -1,9 +1,11 @@
 
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+
 .logo{
     max-width: 80px;
   }
 .logo.mobile{
-  max-width: 180px;
+  max-width: 100px;
 
 }
 .bar{
@@ -17,13 +19,11 @@
   z-index: 1;
 }
 .bar.mobile{
-  background: radial-gradient(center, rgb(171, 168, 173) 20%, rgb(250, 114, 23) 100%);
-  position: fixed;
   top: 0px;
   left: 0px;
   right: 0px;
   width: 100%;  
-  max-height: 200px;
+  max-height: 120px;
   z-index: 1;
 }
 .navbutton{
@@ -35,9 +35,9 @@
     text-shadow: 1px 1px #ffffff;
 }
 .navbutton.mobile{
-  padding: 5%;
+  padding: 2%;
   margin: 3%;
-  background-color: rgba(155, 154, 154, 0.685);
+  background-color: rgba(155, 154, 154, 0.26);
 }
 .navbutton:hover{
   color: white;
@@ -61,12 +61,12 @@
   right: 30px;
 }
 .menu.mobile{
-  transform: scale(3);
-  top:80px;
-  right: 80px;
+  transform: scale(1.8);
+  top:40px;
+  right: 50px;
 }
 .menu.mobile:hover{
-  transform: scale(3);
+  transform: scale(2.2);
 }
 .menu:hover{
   transition: transform 0.1s ease;
@@ -89,11 +89,10 @@
   padding: 10px;
 }
 .lilpop.mobile{
-  font-size: 400%;
-  top:190px;
+  font-size: 200%;
+  top:100px;
   right: unset;
   width: 80%;
-  height: 1500px;
 }
 
 .popup {
@@ -190,7 +189,7 @@
   padding: 5%;
 }
 
-  @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
+  
   input::webkit-input-placeholder, textarea::-webkit-input-placeholder {
     color: #000000;
     font-size: 0.875em;
@@ -367,7 +366,7 @@
     padding-right: 15px;
   }
   .fa-facebook.mobile{
-    transform: scale(3);
+    transform: scale(2);
     margin: 5%;
     margin-inline: 10%;
   }
@@ -386,7 +385,7 @@
     border-radius: 15px;
   }
   .fa-instagram.mobile{
-    transform: scale(3);
+    transform: scale(2);
     margin: 5%;
   }
   .fa-instagram:hover{
@@ -402,7 +401,7 @@
     padding: 10px;
   }
   .fa-paypal.mobile{
-    transform: scale(3);
+    transform: scale(2);
     margin: 5%;
     
   }
