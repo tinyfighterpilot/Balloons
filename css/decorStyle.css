@@ -19,11 +19,20 @@ body{
     font-size: larger;
   }
 }
-.overlay{
-  color:rgba(248, 248, 248, 0.966);
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size:xxx-large;
-  text-shadow: 2px 2px #000000;
+.overlay {
+  position: absolute;
+  color: white;
+  font-size: 1.5rem;
+  padding: 5px 10px; 
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.figure{
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
 }
 
 p{
@@ -45,12 +54,12 @@ h3{
   line-height: 2;
 }
 @media screen and (max-width: 1000px){
-  .left{
+  .imgleft{
     width: 70%;
   }
   
 }
-.left{
+.imgleft{
   float: left;
   margin-inline: 2%;
   background-color: blue;
@@ -108,14 +117,38 @@ h3{
   .six {
     order: 6;
   }
+  .seven{
+    order: 7;
+  }
+  .eight{
+    order: 8;
+  }
 }
 /*slide show container*/
+.overlay2{
+  position: absolute;
+  color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+  height: 50%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.overlay2:hover{
+  color: white;
+  font-size:x-large;
+  transition:.5s;
+}
 
 /*slide*/
 .gi{
   display: block;
   max-width: 80%;
   max-height: 600px;
+}
+.gi:hover{
+
 }
 img{
   border-radius: 10px;

@@ -1,0 +1,7 @@
+{
+    "IDX.aI.enableInlineCompletion": true,
+    "IDX.aI.enableCodebaseIndexing": true,
+    "fiveServer.port": 5500,
+    "fiveServer.injectBody": true,
+    "fiveServer.highlight": true
+}
