@@ -16,6 +16,9 @@
         cursor: pointer;
     }
 }
+.intro.mobile{
+    margin-block: 30%;
+}
 h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align:center;
@@ -23,9 +26,27 @@ h1{
 }
 .slides{
     margin:5%;
-    max-width:800px;
+    max-height:40%;
     border-radius: 10px;
   }
+.product{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+  .overlay{
+    position: absolute;
+    color: rgba(0, 255, 34, 0);
+    cursor: pointer;
+    padding-inline: 150px;
+    padding-block: 150px;
+  }
+  .overlay:hover{
+    color: white;
+    font-size:xx-large;
+    transition:.5s;
+  }
+  
 @media screen and (min-width:1000px){
     .cart{
         width: 90%;

@@ -83,7 +83,14 @@ h3{
   justify-content: center;
   margin-top: 5%;
 }
-
+@media (min-width: 1100px){
+  .seven{
+    order: 8;
+  }
+  .eight{
+    order: 7;
+  }
+}
 @media (max-width: 1100px) {
   .grid {
     grid-template-columns: 1fr;
@@ -134,11 +141,13 @@ h3{
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 .overlay2:hover{
   color: white;
   font-size:x-large;
   transition:.5s;
+  text-shadow:0px 0px 2em black;
 }
 
 /*slide*/
