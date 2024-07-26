@@ -29,10 +29,17 @@ h1{
     max-height:40%;
     border-radius: 10px;
   }
+  .cart:hover{
+    transform: scale(105%);
+    transition: .5s;
+  }
 .product{
     display: flex;
     justify-content:center;
     align-items: center;
+}
+.product2{
+    display: inline-block;
 }
   .overlay{
     position: absolute;
@@ -46,7 +53,11 @@ h1{
     font-size:xx-large;
     transition:.5s;
   }
-  
+  .underlay{
+    position: relative;
+    color: black;
+    cursor: pointer;
+  }
 @media screen and (min-width:1000px){
     .cart{
         width: 90%;
