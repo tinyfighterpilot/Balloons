@@ -33,30 +33,30 @@ h1{
     transform: scale(105%);
     transition: .5s;
   }
-.product{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-}
 .product2{
     display: inline-block;
 }
-  .overlay{
-    position: absolute;
-    color: rgba(0, 255, 34, 0);
-    cursor: pointer;
-    padding-inline: 150px;
-    padding-block: 150px;
-  }
-  .overlay:hover{
-    color: white;
-    font-size:xx-large;
-    transition:.5s;
-  }
   .underlay{
     position: relative;
     color: black;
     cursor: pointer;
+  }
+  .right{
+    position: relative;
+    bottom: 120px;
+    left: 30%;
+    font-size: xxx-large;
+    color: rgb(233, 233, 233);
+  }
+  .left{
+    position: relative;
+    bottom: 120px;
+    left: -30%;
+    font-size: xxx-large;
+    color: rgb(233, 233, 233);
+  }
+  .left:hover{
+    color:aqua;
   }
 @media screen and (min-width:1000px){
     .cart{
