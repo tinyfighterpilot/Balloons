@@ -56,7 +56,12 @@ h1{
     color: rgb(233, 233, 233);
   }
   .left:hover{
-    color:aqua;
+    color: greenyellow;
+    transition: .5s;
+  }
+  .right:hover{
+    color: greenyellow;
+    transition: .5s;
   }
 @media screen and (min-width:1000px){
     .cart{
