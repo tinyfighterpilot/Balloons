@@ -7,10 +7,7 @@ body{
   }
 }
 .image{
-  width:100vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  width:80%;
 }
 .banner {
   display: flex;
@@ -19,9 +16,9 @@ body{
   height: 80vh;
   align-items: center;
   justify-content: center;
-  background: url(assets/balloonpinkbackground.png) center/ cover;
-  background-attachment: fixed;
-  background-position: 0; /* Moves background image down by 90px */
+  background: url(assets/balloonpinkbackground.png) center;
+  background-attachment: fixed 90px;
+  /* Moves background image down by 90px */
 }
 .banner2 {
   display: flex;

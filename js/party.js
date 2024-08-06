@@ -59,6 +59,3 @@ function showDivv(a){
   }
   p[s3-1].style.display = "block";
 }
-function showDiv(x, ){
-
-}
