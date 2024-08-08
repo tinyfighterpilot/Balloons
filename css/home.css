@@ -6,9 +6,7 @@ body{
     margin-inline: 10%;
   }
 }
-.image{
-  width:80%;
-}
+
 .banner {
   display: flex;
   margin-top: 90px;
@@ -32,18 +30,18 @@ body{
   background-attachment: fixed;
   background-position: center 90px; /* Moves background image down by 90px */
 }
+
 .gridItem {
   display: flex;
-  justify-content: center;
   align-items: center;
-  position: relative;
 }
-
+.space{
+  margin-bottom: 20%;
+}
 .gridItem img {
   max-width: 100%;
   max-height: 100%;
-  vertical-align: middle;
-
+  vertical-align:auto;
 }
 
 .overlay {
@@ -55,7 +53,44 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
+figcaption{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 2.5rem;
+  position:relative;
+  text-align: center;
+  right: 60%;
+  text-shadow: 1px 1px 2px #000000;
+}
+.popabble{
+  right: 70%;
+}
+.right{
+  position: relative;
+  right: 20%;
+  top: 40%;
+  text-shadow:  2px 1px #000000;
+  font-size: xxx-large;
+  color: rgb(233, 233, 233);
+  cursor: pointer;
+}
+.left{
+  position: relative;
+  right: 90%;
+  top: 40%;
+  text-shadow: -2px 1px black;
+  font-size: xxx-large;
+  color: rgb(233, 233, 233);
+  cursor: pointer;
+}
+.left:hover{
+  color: greenyellow;
+  transition: .5s;
+}
+.right:hover{
+  color: greenyellow;
+  transition: .5s;
+}
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -108,15 +143,10 @@ body{
   float: right;
   padding-left: 5%;
 }
-.slideshow{
-  display: flex;
-  align-items: center;
-  
-}
 
 .animals{
   max-width: 1000px;
   width: 90%;
-  margin:5%;
+  margin:auto;
   border-radius: 10px;
 }
