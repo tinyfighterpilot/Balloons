@@ -8,3 +8,10 @@
     width: 60%;
   }
 }
+.greeting{
+  position: sticky;
+  text-shadow: 1px 1px 1px white;
+  top: 30px;
+  z-index: 4;
+  font-size: xxx-large;
+}
