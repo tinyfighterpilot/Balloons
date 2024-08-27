@@ -4,4 +4,5 @@
     "fiveServer.port": 5500,
     "fiveServer.injectBody": true,
     "fiveServer.highlight": true
+    
 }
