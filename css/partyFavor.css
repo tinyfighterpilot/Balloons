@@ -16,6 +16,13 @@
         cursor: pointer;
     }
 }
+.intro{
+  position: sticky;
+  top: 15px;
+  z-index: 1;
+  text-shadow: 1px 1px 1px white;
+  font-size: xxx-large;
+}
 .intro.mobile{
     margin-block: 30%;
 }
