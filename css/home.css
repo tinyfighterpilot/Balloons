@@ -1,6 +1,7 @@
 body{
   margin-inline: 0;
 }
+
 @media screen and (min-width: 1500px){
   .text{
     margin-inline: 10%;
@@ -9,12 +10,12 @@ body{
 
 .banner {
   display: flex;
-  margin-top: 90px;
+  
   width: 100vw; 
-  height: 80vh;
+  height: 75vh;
   align-items: center;
   justify-content: center;
-  background: url(assets/balloonpinkbackground.png) center;
+  background: url(assets/balloon_anime.png) center;
   background-attachment: fixed 90px;
   /* Moves background image down by 90px */
 }

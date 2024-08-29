@@ -6,6 +6,7 @@ let slideindex = 1;
 showDivs(slideIndex);
 showDiv(si);
 showDivv(s3);
+showDiv3(slideindex);
 function plusDivs(n) {
   showDivs(slideIndex += n);
 }
@@ -66,8 +67,6 @@ function showDivv(a){
 function showDiv3(x){
   var i;
   var w = document.getElementsByClassName("i4");
-
-  //need if or condition statement to change slideIndex for slideshow
   if (x > w.length) {
     slideindex = 1;
   }
