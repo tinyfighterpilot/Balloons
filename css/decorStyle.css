@@ -33,7 +33,7 @@ body{
 }
 .right{
   position: relative;
-  left: 65%;
+  left: 85%;
   bottom: 120px;
   text-shadow:  2px 1px #000000;
   font-size: xxx-large;
@@ -68,6 +68,7 @@ p{
   line-height: 2;
   font-weight: 500;
   font-size: x-large;
+  
 }
 
 h1{
@@ -106,6 +107,7 @@ p{
 }
 .gridItem{
   display: inline-table;
+  margin-block: 20px;
 }
 .gridItem img {
   max-width: 100%;
@@ -118,11 +120,28 @@ p{
   margin-top: 5%;
 }
 @media (min-width: 1100px){
+  .one{
+  }
+  .two{
+    margin-top: 200px;
+  }
+  .three{
+    margin-top: 200px;
+    
+  }
+  .four{
+    margin: 20px;
+  }
+  .five{
+  }
+  .six{
+  }
   .seven{
     order: 8;
   }
   .eight{
     order: 7;
+    margin-top: 200px;
   }
 }
 @media (max-width: 1100px) {
