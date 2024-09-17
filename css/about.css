@@ -5,13 +5,17 @@
 }
 @media screen and (min-width: 1000px){
   .image{
-    width: 60%;
+    width: 70%;
   }
 }
 .greeting{
   position: sticky;
-  text-shadow: 1px 1px 1px white;
   top: 20px;
+  text-shadow: 1px 1px white;
   z-index: 4;
   font-size: xxx-large;
+  color: rgba(252, 248, 3, 0.932);
+  /*background: radial-gradient(circle, rgb(109, 11, 238) 0%, rgb(250, 114, 23) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
 }

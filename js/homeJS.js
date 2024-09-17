@@ -16,5 +16,5 @@ function showDivs(x){
         slide[i].style.display = "none";
 
     }
-    slide[index - 1].style.display = "block";
+    slide[index - 1].style.display = "inline-grid";
 }

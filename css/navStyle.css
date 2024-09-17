@@ -6,22 +6,19 @@
   }
 .logo.mobile{
   max-width: 100px;
-
+}
+.logo2.mobile{
+  width:60%;
 }
 .bar{
   background: radial-gradient(circle, rgb(109, 11, 238) 0%, rgb(250, 114, 23) 100%);
   position: fixed;
-  top: 0px;
-  left: 0px;
-  right: 0px;
+  top: 0;
   width: 100%;
   max-height:90px;  
   z-index: 1;
 }
 .bar.mobile{
-  top: 0px;
-  left: 0px;
-  right: 0px;
   width: 100%;  
   max-height: 120px;
   z-index: 1;
@@ -37,7 +34,7 @@
 .navbutton.mobile{
   padding: 2%;
   margin: 3%;
-  background-color: rgba(155, 154, 154, 0.26);
+  background-color: rgba(50, 22, 206, 0.247);
 }
 .navbutton:hover{
   color: white;
@@ -47,7 +44,7 @@
   text-shadow: 1px 1px #000000;
 }
 .homeBut{
-  background-color: blue;
+  background-color: rgb(10, 10, 250);
   width: 50px;
   height: 50px;
   position: absolute;
@@ -74,7 +71,7 @@
 }
 
 .lilpop{
-  background-color: rgba(238, 238, 238, 0.945);
+  background-color: rgba(204, 215, 250, 0.993);
   width: 300px;
   height: 600px;
   display: flex;
@@ -91,6 +88,8 @@
 .lilpop.mobile{
   font-size: 200%;
   top:100px;
+  padding-top: 40px;
+  padding-inline: 20px;
   right: unset;
   width: 80%;
 }
@@ -278,8 +277,8 @@
   }
 
   #form {
-    width: 500px;
-    margin: 50px auto 10px auto;
+    width: 80%;
+    margin: 10px auto 10px auto;
   }
   .name:hover{
     background-color: #edf1ef00;
@@ -289,7 +288,7 @@
   input {
     font-family: 'Lato', sans-serif;
     font-size: 0.875em;
-    width: 470px;
+    width: 100%;
     height: 50px;
     padding: 0px 15px 0px 15px;
     background: transparent;
@@ -311,7 +310,7 @@
   }
   
   textarea {
-    width: 470px;
+    width: 100%;
     min-width: 300px;
     max-width: 470px;
     height: 110px;
@@ -339,8 +338,7 @@
   }
   
   #submit {
-    width: 502px;
-    padding: 0;
+    width: 100%;
     margin-block: 1.5%;
     font-family: 'Lato', sans-serif;
     font-size: 0.875em;

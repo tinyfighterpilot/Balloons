@@ -10,9 +10,8 @@ body{
 
 .banner {
   display: flex;
-  
-  width: 100vw; 
-  height: 75vh;
+  width: 100%; 
+  height: 80vh;
   align-items: center;
   justify-content: center;
   background: url(assets/balloon_anime.png) center;
@@ -22,7 +21,7 @@ body{
 .banner2 {
   display: flex;
   margin-top: 90px;
-  width: 100vw; 
+  width: 100%; 
   height: 90vh;
   align-items: center;
   justify-content: center;
@@ -35,14 +34,26 @@ body{
 .gridItem {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .space{
   margin-bottom: 20%;
+  margin-inline: auto;
 }
 .gridItem img {
   max-width: 100%;
   max-height: 100%;
   vertical-align:auto;
+  margin-inline: auto;
+}
+.slide{
+  left: 7%;
+  position: relative;
+}
+.slide.mobile{
+  padding: 5%;
+  position: relative;
+  left: 9%;
 }
 
 .overlay {
@@ -54,21 +65,18 @@ body{
   left: 50%;
   transform: translate(-50%, -50%);
 }
-figcaption{
+.popabble{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(255, 255, 255);
   font-size: 2.5rem;
-  position:relative;
-  text-align: center;
-  right: 60%;
   text-shadow: 1px 1px 2px #000000;
+  position: absolute;
 }
-.popabble{
-  right: 70%;
-}
+/*.popabble.mobile{
+}*/
 .right{
   position: relative;
-  right: 20%;
+  right: 10%;
   top: 40%;
   text-shadow:  2px 1px #000000;
   font-size: xxx-large;
@@ -77,7 +85,7 @@ figcaption{
 }
 .left{
   position: relative;
-  right: 90%;
+  right: 80%;
   top: 40%;
   text-shadow: -2px 1px black;
   font-size: xxx-large;
@@ -95,16 +103,16 @@ figcaption{
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 4fr);
   gap: 10px;
   height: auto;
-  width: 80%; /* Adjust width as needed */
-  margin: 0 auto; /* Center the grid horizontally */
+  width: 100%;
+  margin: 0 auto;
 }
 
 @media (max-width: 1100px) {
   .grid {
-      grid-template-columns: 1fr;
+      grid-template-columns: 2fr;
   }
 }
 
