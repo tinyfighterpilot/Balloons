@@ -137,7 +137,7 @@ body{
     align-items: center;
     justify-content: center;
     background: linear-gradient(#e2a4d07e, transparent, #cecece9a), 
-                url(assets/) center/ cover;
+                url(assets/header.png) center/ cover;
     background-attachment: fixed;
     background-position: center 90px; /* Moves background image down by 90px */
   }
