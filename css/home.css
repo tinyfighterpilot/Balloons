@@ -47,11 +47,10 @@ body{
   margin-inline: auto;
 }
 .slide{
-  left: 7%;
+  left: 6%;
   position: relative;
 }
 .slide.mobile{
-  padding: 5%;
   position: relative;
   left: 9%;
 }
@@ -76,7 +75,7 @@ body{
 }*/
 .right{
   position: relative;
-  right: 10%;
+  right: 20%;
   top: 40%;
   text-shadow:  2px 1px #000000;
   font-size: xxx-large;
