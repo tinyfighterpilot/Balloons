@@ -22,39 +22,15 @@ body{
 .overlay {
   position: absolute;
   color: white;
+  text-shadow: 1px 1px black;
   font-size: 1.5rem;
   padding: 5px 10px; 
-  top: 60%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-@media screen and (max-width: 1000px){
-  
-}
-.right{
-  position: relative;
-  left: 85%;
-  bottom: 120px;
-  text-shadow:  2px 1px #000000;
-  font-size: xxx-large;
-  color: rgb(233, 233, 233);
-}
-.left{
-  position: relative;
-  left: 5%;
-  bottom: 120px;
-  text-shadow: -2px 1px black;
-  font-size: xxx-large;
-  color: rgb(233, 233, 233);
-}
-.left:hover{
-  color: greenyellow;
-  transition: .5s;
-}
-.right:hover{
-  color: greenyellow;
-  transition: .5s;
-}
+
+
 
 figure{
   display: flex;
@@ -84,6 +60,7 @@ h3{
 @media screen and (max-width: 1000px){
   .imgleft{
     width: 70%;
+    min-width:300px;
   }
 }
 p{
@@ -91,12 +68,14 @@ p{
   align-self: center;
   justify-self: center;
 }
-.imgleft{
-  float: left;
+.gi{
   margin-inline: 2%;
+  max-width:100%;
   background-color: blue;
-  width: 100%;
   margin-bottom: 0%;
+  border-radius: 10px;
+  min-width: 310px;
+  
 }
 .grid {
   display: grid;
@@ -118,6 +97,28 @@ p{
   display: flex;
   justify-content: center;
   margin-top: 5%;
+}
+.right{
+  position: relative;
+  width: 50px;
+  right: -70%;
+  bottom: 80px;
+  cursor: pointer;
+}
+.left{
+  position: relative;
+  width: 50px;
+  left: 20%;
+  bottom: 80px;
+  cursor: pointer;
+}
+.right.mobile{
+    right: 40%;
+    top: 38%;
+}
+.left.mobile{
+  left: 0%;
+  top: 38%;
 }
 @media (min-width: 1100px){
   .one{
@@ -143,6 +144,7 @@ p{
     order: 7;
     margin-top: 200px;
   }
+  
 }
 @media (max-width: 1100px) {
   .grid {
@@ -183,13 +185,16 @@ p{
     order: 8;
   }
   .right{
+    position: relative;
     left: -20%;
     top: 40%;
   }
   .left{
-    left: -85%;
+    position: relative;
+    left: -80%;
     top: 40%;
   }
+  
 }
 /*slide show container*/
 .overlay2{
@@ -213,6 +218,3 @@ p{
 /*slide*/
 
 
-img{
-  border-radius: 10px;
-}

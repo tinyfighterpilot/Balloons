@@ -1,4 +1,6 @@
-
+body{
+  margin: 0;
+}
 .image{
   border-radius: 10px;
 
@@ -9,12 +11,11 @@
   }
 }
 .greeting{
-  position: sticky;
-  top: 20px;
-  text-shadow: 1px 1px white;
-  z-index: 4;
+  position: absolute;
+  left: 25%;
+  text-shadow: 1px 1px rgb(0, 0, 0);
   font-size: xxx-large;
-  color: rgba(252, 248, 3, 0.932);
+  color: rgb(255, 255, 255);
   /*background: radial-gradient(circle, rgb(109, 11, 238) 0%, rgb(250, 114, 23) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;*/

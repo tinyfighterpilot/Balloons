@@ -1,4 +1,11 @@
-
+body{
+  margin: 0;
+}
+.container.mobile{
+  margin:0px;
+  padding: 0px;
+  margin-top: 100px;
+}
 @media screen and (max-width:1000px){
     .cart{
         width: 90%;
@@ -16,15 +23,32 @@
         cursor: pointer;
     }
 }
+.greeting{
+  position: absolute;
+  left: 17%;
+  top: -20px;
+  font-stretch: expanded;
+}
+@media screen and (max-width: 1200px){
+  .greeting{
+    visibility: hidden;
+  }
+}
 .intro{
   position: sticky;
   top: 15px;
   z-index: 1;
-  text-shadow: 1px 1px 1px white;
+  background: -webkit-linear-gradient(#e30bff, #ff8800);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color: transparent;
+ 
   font-size: xxx-large;
 }
 .intro.mobile{
-    margin-block: 30%;
+    top: 50px;
+    font-size: x-large;
+    color: white;
+    text-shadow: none;
 }
 h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -50,20 +74,16 @@ h1{
   }
   .right{
     position: relative;
-    bottom: 120px;
-    left: 30%;
-    text-shadow:  2px 1px #000000;
-    font-size: xxx-large;
-    color: rgb(233, 233, 233);
+    left: 20%;
+    top: 55%;
+    width: 50px;
     cursor: pointer;
   }
   .left{
     position: relative;
-    bottom: 120px;
-    left: -30%;
-    text-shadow: -2px 1px black;
-    font-size: xxx-large;
-    color: rgb(233, 233, 233);
+    right: 20%;
+    top: 55%;
+    width: 50px;
     cursor: pointer;
   }
   .left:hover{

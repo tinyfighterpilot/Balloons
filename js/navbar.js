@@ -1,4 +1,4 @@
-var elements = ['intro', 'logo', 'menu', 'bar', 'lilpop', 'popup', 'navbutton', 'fa-facebook', 'fa-instagram', 'fa-paypal', 'gridImg', 'logo2', 'slide'];
+var elements = ['container','intro', 'logo', 'menu', 'bar', 'lilpop', 'popup', 'navbutton', 'fa-facebook', 'fa-instagram', 'fa-paypal', 'gridImg', 'logo2', 'slide', 'right', 'left'];
 
 function toggleMobile() {
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
