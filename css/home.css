@@ -7,9 +7,7 @@ body{
     margin-inline: 10%;
   }
 }
-.logo2{
-  width: 90%;
-}
+
 .banner {
   display: flex;
   margin-top: 90px;
@@ -50,7 +48,7 @@ body{
   margin-inline: auto;
 }
 .slide{
-  left: 6%;
+  left: 5.5%;
   position: relative;
 }
 .slide.mobile{
@@ -60,12 +58,13 @@ body{
 
 .overlay {
   position: absolute;
-  color: white;
-  font-size: 1.5rem;
-  padding: 5px 10px; 
   top: 50%;
   left: 50%;
+  width: 100%;
   transform: translate(-50%, -50%);
+}
+.BB{
+  width: 100%;
 }
 .popabble{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -79,14 +78,14 @@ body{
 .right{
   position: relative;
   right: 20%;
-  top: 55%;
+  top: 40%;
   width: 50px;
   cursor: pointer;
 }
 .left{
   position: relative;
   right: 80%;
-  top: 55%;
+  top: 40%;
   width: 50px;
   cursor: pointer;
 }
