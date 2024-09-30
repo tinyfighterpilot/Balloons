@@ -263,7 +263,7 @@
   }
 
   #form {
-    width: 80%;
+    width: 70%;
     margin: 10px auto 10px auto;
   }
   .name:hover{
@@ -343,16 +343,15 @@
     background: #3B5998;
     color: rgb(255, 255, 255);
     border-radius: 15px;
-    margin-right: 12px;
+    margin-inline: 15px;
     padding: 10px;
     text-decoration: none;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-inline: 15px;
   }
   .fa-facebook.mobile{
     transform: scale(2);
     margin: 5%;
-    margin-inline: 10%;
+    margin-inline: 13%;
   }
   .fa-facebook:hover{
     background-color: #3508fc;
