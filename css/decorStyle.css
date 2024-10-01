@@ -70,9 +70,7 @@ h3{
 }
 
 p{
-  display: flex;
-  align-self: center;
-  justify-self: center;
+  
 }
 .gi{
   margin-inline: 2%;

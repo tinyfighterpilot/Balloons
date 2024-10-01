@@ -10,13 +10,22 @@ body{
     width: 70%;
   }
 }
+@media screen and (max-width: 1000px){
+  .image{
+    width: 100%;
+    margin-top: 50px;
+  }
+  .greeting{
+    margin-top: 100px;
+  }
+  
+}
+
 .greeting{
-  position: absolute;
-  left: 25%;
-  text-shadow: 1px 1px rgb(0, 0, 0);
+  position: relative;
+  top: 50px;
+  text-align: center;
+  text-shadow: 2px 2px rgba(148, 139, 139, 0.479);
   font-size: xxx-large;
-  color: rgb(255, 255, 255);
-  /*background: radial-gradient(circle, rgb(109, 11, 238) 0%, rgb(250, 114, 23) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;*/
+  color: rgb(224, 221, 221);
 }

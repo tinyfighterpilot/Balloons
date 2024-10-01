@@ -24,15 +24,18 @@ body{
     }
 }
 .greeting{
-  position: absolute;
-  left: 17%;
-  top: -20px;
+  top: 100px;
+  position: relative;
   font-stretch: expanded;
 }
 @media screen and (max-width: 1200px){
   .greeting{
-    visibility: hidden;
+    top: 50px;
+    position: relative;
   }
+}
+.greeting.mobile{
+  top: 100px;
 }
 .intro{
   position: sticky;
