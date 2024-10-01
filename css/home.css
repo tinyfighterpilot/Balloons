@@ -71,8 +71,9 @@ body{
   text-shadow: 1px 1px 2px #000000;
   position: absolute;
 }
-/*.popabble.mobile{
-}*/
+.popabble.mobile{
+  font-size:large;
+}
 .right{
   position: relative;
   right: 20%;

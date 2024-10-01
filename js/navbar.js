@@ -1,4 +1,4 @@
-var elements = ['p', 'greeting','r1', 'l1', 'r2', 'l2','gridItem','container','intro', 'logo', 'menu', 'bar', 'lilpop', 'popup', 'navbutton', 'fa-facebook', 'fa-instagram', 'fa-paypal', 'gridImg', 'logo2', 'slide', 'right', 'left'];
+var elements = ['popabble','p', 'greeting','r1', 'l1', 'r2', 'l2','gridItem','container','intro', 'logo', 'menu', 'bar', 'lilpop', 'popup', 'navbutton', 'fa-facebook', 'fa-instagram', 'fa-paypal', 'gridImg', 'logo2', 'slide', 'right', 'left'];
 
 function toggleMobile() {
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {

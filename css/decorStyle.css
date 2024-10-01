@@ -72,7 +72,6 @@ h3{
 
 .gi{
   position:static;
-  margin-inline: 2%;
   max-width:100%;
   margin-bottom: 0%;
   border-radius: 10px;
@@ -94,8 +93,9 @@ h3{
   vertical-align:auto;
 }
 .gridItem.mobile{
-  background-color: greenyellow;
   max-height: 800px;
+  max-width: 90%;
+  margin-block: 10%;
 }
 .Title{
   display: flex;
@@ -214,6 +214,18 @@ h3{
   .right{
     
   }
+  .i2{
+    margin-inline: 5%;
+  }
+}
+.right.mobile{
+  left: -40%;
+}
+.left.mobile{
+  left: -98%;
+}
+.r1.mobile{
+  left: -36%;
 }
 .overlay2{
   position: absolute;
