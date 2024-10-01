@@ -1,6 +1,4 @@
 
-@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
-
 .logo{
     max-width: 80px;
   }
@@ -255,11 +253,6 @@
     padding-top: 2%;
   }
   .contact-sheet {
-    margin: 100px 0 25px 0;
-    font-size: 2.3em;
-    text-align: center;
-    letter-spacing: 7px;
-    font-family:Arial, Helvetica, sans-serif;
     color: #3f3e3e;
     cursor: default;
   }
@@ -274,9 +267,9 @@
   }
   
   input {
-    font-family: 'Lato', sans-serif;
+    font-family: 'titles';
     font-size: 0.875em;
-    width: 100%;
+    width: 95%;
     height: 50px;
     padding: 0px 15px 0px 15px;
     background: transparent;
@@ -298,7 +291,7 @@
   }
   
   textarea {
-    width: 100%;
+    width: 95%;
     height: 110px;
     min-height: 50px;
     max-height: 110px;
@@ -316,7 +309,9 @@
     -ms-transition: all 0.1s ease-in-out;
     border-radius: 10px;
   }
-  
+  .BB{
+    width: 100%;
+  }
   textarea:hover {
     background: #edf1ef00;
     color: #000000;
@@ -326,7 +321,7 @@
   #submit {
     width: 70%;
     margin: auto 15%;
-    font-family: 'Lato', sans-serif;
+    font-family: 'titles';
     font-size: 0.875em;
     color: #000000;
     outline:none;
@@ -336,7 +331,7 @@
   
   #submit:hover {
     color: #ffffff;
-    background-color:#11c420;
+    background: radial-gradient(circle, rgb(109, 11, 238) 0%, rgb(250, 114, 23) 150%);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   }
   .fa-facebook {

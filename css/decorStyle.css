@@ -20,33 +20,33 @@ body{
     font-size: larger;
   }
 }
-.overlay {
-  position: absolute;
-  color: white;
-  text-shadow: 1px 1px black;
-  font-size: 1.5rem;
-  padding: 5px 10px; 
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+@media screen and (max-width: 500px) {
+  .overlay{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 200%;
+    text-shadow: 1px 1px black;
+    padding: 5px 10px; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media screen and (min-width: 500px) {
+  .overlay {
+    position: absolute;
+    font-size: 300%;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px black;
+    padding: 5px 10px; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 
 
-figure{
-  display: flex;
-  justify-content: baseline;
-  align-items: center;
-}
-
-p{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-align: center;
-  line-height: 2;
-  font-weight: 500;
-  font-size: x-large;
-  
-}
 
 h1{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -69,16 +69,13 @@ h3{
   }
 }
 
-p{
-  
-}
+
 .gi{
+  position:static;
   margin-inline: 2%;
   max-width:100%;
   margin-bottom: 0%;
   border-radius: 10px;
-  min-width: 310px;
-  
 }
 .grid {
   display: grid;
@@ -96,12 +93,15 @@ p{
   max-height: 100%;
   vertical-align:auto;
 }
+.gridItem.mobile{
+  background-color: greenyellow;
+  max-height: 800px;
+}
 .Title{
   display: flex;
   justify-content: center;
   margin-top: 5%;
 }
-
 
 
 @media screen and (min-width: 1100px){
@@ -174,7 +174,7 @@ p{
 .right{
   position: relative;
   width: 50px;
-  left: 80%;
+  left: 70%;
   bottom: 80px;
   cursor: pointer;
 }
@@ -190,40 +190,31 @@ p{
   .right{
     position: relative;
     width: 50px;
-    left: -20%;
-    top: 150px;
+    left: -30%;
+    top: 200px;
     cursor: pointer;
   }
   .left{
     position: relative;
     width: 50px;
     left: -80%;
-    top: 150px;
+    top: 200px;
     cursor: pointer;
   }
-  .r1.mobile{
-    left: -40%;
-  }
-  .l1.mobile{
-    left: -100%;
-  }
-  .r2{
-    left: -30%;
-  }
-  .l2{
-    left: -80%;
-  }
-  .right.mobile{
-    width: 60px;
-  }
-  .left.mobile{
-    width: 60px;
-  }
+  
   
 }
-
-
-/*slide show container*/
+@media screen and (max-width: 760px){
+  p{
+    font-size: small;
+  }
+  .left{
+    left: -90%;
+  }
+  .right{
+    
+  }
+}
 .overlay2{
   position: absolute;
   color: rgba(255, 255, 255, 0);
@@ -242,6 +233,6 @@ p{
   text-shadow:0px 0px 2em black;
 }
 
-/*slide*/
+
 
 

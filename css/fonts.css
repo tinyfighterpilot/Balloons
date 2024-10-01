@@ -1,26 +1,42 @@
-h1{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-align:center;
+@font-face {
+  font-family: 'happy';
+  src: url("assets/Sixtyfour_Convergence/SixtyfourConvergence-Regular-VariableFont_BLED\,SCAN\,XELA\,YELA.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'titles';
+  src: url("assets/Rubik/Rubik-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1 {
+  font-family: 'titles';
+  text-align: center;
   margin: 10%;
 }
-h2{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+h2 {
+  font-family: 'happy';
   text-align: center;
   margin: 5%;
   font-weight: 400;
 }
 
-h4{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  text-align:center;
-}
-p{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+h4 {
+  font-family: 'titles';
   text-align: center;
-  line-height: 2;
-  font-weight: 700;
 }
-.text{
+
+p {
+  font-family: 'happy';
+  text-align: center;
+  line-height: 4;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.74);
+}
+
+.text {
   padding: 50px;
   margin-block: 50px;
   background-color: rgb(255, 255, 255);

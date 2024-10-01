@@ -63,9 +63,7 @@ body{
   width: 100%;
   transform: translate(-50%, -50%);
 }
-.BB{
-  width: 100%;
-}
+
 .popabble{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: rgb(255, 255, 255);
@@ -155,7 +153,6 @@ body{
   font-size:xxx-large;
   text-shadow: 2px 2px #000000;
 }
-
 .hero{
   max-width: 800px;
   float: right;
