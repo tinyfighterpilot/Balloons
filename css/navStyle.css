@@ -312,6 +312,9 @@
   .BB{
     width: 100%;
   }
+  .BB.mobile{
+    max-width: 350px;
+  }
   textarea:hover {
     background: #edf1ef00;
     color: #000000;
