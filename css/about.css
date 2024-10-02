@@ -20,7 +20,9 @@ body{
   }
   
 }
-
+.BB{
+  width: 100%;
+}
 .greeting{
   position: relative;
   top: 50px;

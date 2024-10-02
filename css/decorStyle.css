@@ -204,6 +204,9 @@ h3{
   
   
 }
+.BB{
+  width: 100%;
+}
 @media screen and (max-width: 760px){
   p{
     font-size: small;

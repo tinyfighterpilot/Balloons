@@ -34,8 +34,12 @@ body{
     position: relative;
   }
 }
+
 .greeting.mobile{
   top: 100px;
+}
+.BB{
+  width: 100%;
 }
 .intro{
   position: sticky;
