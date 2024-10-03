@@ -64,15 +64,17 @@
             <h1 class="contact-sheet">Contact us</h1>
             <p class="band">Book with us today</p>
         <p>Full qoutes available by phone or email</p>
-        <form id="form" class="topBefore" action="mailto:michael.k.develope@gmail.com" enctype="text/plain">
-            <input id="name" class="name" type="text" placeholder="NAME"></input>
-            <input id="email" type="email" placeholder="E-MAIL"></input>
-            <input id="phone" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="PHONE" required></input>
-            <input id="text" type="text" placeholder="TYPE OF EVENT" required></input>
-            <input id="address" type="text" name="street-address" autocomplete="street-address" placeholder="LOCATION" required></input>
+        <form id="fs-frm" class="topBefore" accept-charset="utf-8" action="https://formspree.io/f/mwpkekwq" enctype="text/plain" method="post">
+                
+            <input id="name" class="name" type="text" placeholder="NAME" required="">
+            <input id="email" type="email" placeholder="E-MAIL" autocomplete="email" required="">
+            <input id="phone" type="tel" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="PHONE" autocomplete="tel" required="">
+            <input id="text" type="text" placeholder="TYPE OF EVENT" required="">
+            <input id="address" type="text" name="street-address" autocomplete="street-address" placeholder="LOCATION" required="">
             <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
-            <input id="submit" type="submit" value="SEND"></input>
-        </form>
+            <input id="submit" type="submit" value="SEND">
+        
+    </form>
         </div>
         <div class="socials">
             <a href="https://www.instagram.com/balloon_benders_rva/" target="_blank" class="fa fa-instagram"></a>
