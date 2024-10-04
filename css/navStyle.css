@@ -94,7 +94,9 @@
   width: 80%;
 }
 
-
+.topBefore.mobile{
+  width: 70%;
+}
 .show{
   visibility: visible;
   -webkit-animation: fadeIn .1s;
