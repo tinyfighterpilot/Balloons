@@ -115,12 +115,12 @@
         <p>Full qoutes available by phone or email</p>
             <form id="fs-frm" class="topBefore" accept-charset="utf-8" action="https://formspree.io/f/mwpkekwq" enctype="text/plain" method="post">
                 
-                    <input id="name" class="name" type="text" placeholder="NAME" required="">
-                    <input id="email" type="email" placeholder="E-MAIL" autocomplete="email" required="">
-                    <input id="phone" type="tel" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="PHONE" autocomplete="tel" required="">
-                    <input id="text" type="text" placeholder="TYPE OF EVENT" required="">
-                    <input id="address" type="text" name="street-address" autocomplete="street-address" placeholder="LOCATION" required="">
-                    <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+                    <input id="name" name="name" class="name" type="text" placeholder="NAME" required="">
+                    <input id="email" name="email" type="email" placeholder="E-MAIL" autocomplete="email" required="">
+                    <input id="phone" name="telephone" type="tel" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="PHONE" autocomplete="tel" required="">
+                    <input id="text" name="complaint" type="text" placeholder="TYPE OF EVENT" required="">
+                    <input id="address" type="text" name="street-address" autocomplete="street-address" placeholder="STREET ADDRESS" required="">
+                    <textarea id="message" name="message" type="text" placeholder="MESSAGE"></textarea>
                     <input id="submit" type="submit" value="SEND">
                 
             </form>
