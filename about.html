@@ -65,18 +65,27 @@
             <p class="band">Book with us today</p>
         <p>Full qoutes available by phone or email</p>
         <form id="fs-frm" name="complaint-form" class="topBefore" accept-charset="utf-8" action="https://formspree.io/f/mwpkekwq"  method="post">
-                
             <input id="full-name" name="name" class="name" type="text" placeholder="Name" required="">
             <input id="email-address" name="name" type="email" placeholder="email@domain.tld" autocomplete="email" required="">
             <input id="telephone" name="telephone" type="telephone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="(555) 555-5555" autocomplete="tel">
-            <input id="complaint" name="complaint" type="text" placeholder="Type of Event" required="">
+            <!--input id="complaint" name="complaint" type="text" placeholder="Type of Event" required=""-->
+            <select class="name" name="complaint" required>
+                <option>Select a Party Type</option>
+                <option value="Birthday">Birthdays</option>
+                <option value="School">School Party</option>
+                <option value="Church">Church Party</option>
+                <option value="Festivals">Festival</option>
+                <option value="Grand Openings">Grand Opening</option>
+                <option value="Holidays">Holidays</option>
+                <option value="Weddings">Weddings</option>
+                <option value="other">Other</option>
+            </select>
             <input id="street-address" type="street-address" name="street-address" autocomplete="street-address" placeholder="Street Address" required="">
-            <label class="vaOnly">*Virginia only*</label>
+            <h4>*Virginia only*</h4>
             <textarea id="message" name="message" type="text" placeholder="Party details"></textarea>
             <input type="hidden" name="_subject" id="email-subject" value="Form Submission: Balloon Benders RVA">
         
             <input id="submit" type="submit" value="SEND">
-        
     </form>
         </div>
         <div class="socials">
